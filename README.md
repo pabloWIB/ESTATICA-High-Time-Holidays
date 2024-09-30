@@ -1,4 +1,4 @@
-<h2 align="center">Diseño ddevi: <a href="https://hightimeholidays.pages.dev/">Maquetado en ddevi</a></h2>
+<h2 align="center">Diseño Figma: <a href="https://www.figma.com/design/ihnt9Hrj1F5XSDmqRj6mM8/High-Time-Holidays?node-id=0-1&node-type=canvas&t=agzLf4ZTmaVMrZZd-0">Maquetado en Figma</a></h2>
 
 <h2 align="center">Página: <a href="https://hightimeholidays.com">hightimeholidays.com</a></h2>
 
@@ -12,6 +12,9 @@
 
 <h4>IDEs: </h4>
 <img src="https://skillicons.dev/icons?i=vscode"/>
+
+<h4>Apps:</h4>
+<img src="https://skillicons.dev/icons?i=figma" />
 
 <h1>High Time Holidays</h1>
 
