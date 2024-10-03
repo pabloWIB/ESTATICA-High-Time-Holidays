@@ -1,6 +1,8 @@
+<img src="IMG/WEB/hero.jpg"/>
+
 <h2 align="center">Diseño Figma: <a href="https://www.figma.com/design/ihnt9Hrj1F5XSDmqRj6mM8/High-Time-Holidays?node-id=0-1&node-type=canvas&t=agzLf4ZTmaVMrZZd-0">Maquetado en Figma</a></h2>
 
-<h2 align="center">Página: <a href="https://hightimeholidays.com">hightimeholidays.com</a></h2>
+<h2 align="center">Página: <a href="https://estatica-high-time-holidays.vercel.app/">hightimeholidays.com</a></h2>
 
 <h2>Tecnologías usadas👨🏻‍💻</h2>
 <br>
