@@ -9,25 +9,11 @@
 	<meta property="og:title" content="High Time Holidays - Your Travel Partner" />
 	<meta property="og:description"
 		content="Explore amazing travel packages in India, the Maldives, and worldwide with High Time Holidays. Your adventure starts here!">
-	<meta property="og:image" content="IMG/FAVICON/favicon-32x32.png" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="High Time Holidays" />
 	<meta property="og:locale" content="en_US" />
-	<link rel="apple-touch-icon" sizes="57x57" href="IMG/FAVICON/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="IMG/FAVICON/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="IMG/FAVICON/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="IMG/FAVICON/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="IMG/FAVICON/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="IMG/FAVICON/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="IMG/FAVICON/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="IMG/FAVICON/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="IMG/FAVICON/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="IMG/FAVICON/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="IMG/FAVICON/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="IMG/FAVICON/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="IMG/FAVICON/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="IMG/FAVICON/favicon.ico">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="twitter:title" content="High Time Holidays - Your Travel Partner" />
 	<meta name="twitter:description"
@@ -39,7 +25,7 @@
 			"@type": "Organization",
 			"name": "High Time Holidays",
 			"url": "",
-			"logo": "IMG/FAVICON/favicon-32x32.png",
+			"logo": "IMG/FAVICON/favicon.ico",
 			"contactPoint": {
 				"@type": "ContactPoint",
 				"telephone": "+91-",
@@ -110,8 +96,8 @@
 						<div
 							class="group flex items-center justify-center w-full flex-wrap gap-2 px-9 md:gap-3 lg:gap-4 lg:px-10">
 							<a class="px-3 py-1.5 rounded-md font-semibold text-lg lg:px-4 lg:py-2 text-center lg:text-xl w-full md:w-max"
-								style="border:1px solid #fff;background:#fff;color:#429395" target="_self"
-								rel="noopener noreferrer" href="index.html#cta1">Contact us</a><a
+								style="border:1px solid #fff;background:#fff;color:#429395" target="_blank"
+								rel="noopener noreferrer" href="mailto:hightimeholidays@gmail.com">Contact us</a><a
 								class="px-3 py-1.5 rounded-md font-semibold text-lg lg:px-4 lg:py-2 text-center lg:text-xl w-full md:w-max"
 								style="border:1px solid #fff;background:rgba(255,255,255,.05);color:#fff" target="_self"
 								rel="noopener noreferrer" href="index.html#feature2">Services we offer</a>
@@ -128,6 +114,58 @@
 					class="relative top-0 left-0 w-full h-full backdrop-blur-[1px]"></div>
 			</div>
 		</div>
+
+		<div dir="ltr" class="section flex flex-col z-[5] min-h-full w-full"
+			data-sectionid="" data-sectiontype="Feature" data-sectionname="Features"
+			data-color="#000000" data-firstsection="false" style="color:#000;background-color:#ffffff">
+
+			<form action="" id="firstForm">
+				<label for="name">Name:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/user.svg" alt="Name">
+					</div>
+					<input class="input-getdata" type="text" id="name" name="name" autocomplete="name" placeholder="John Smith...">
+				</div>
+
+				<label for="materialType">No. of Adults and Child:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/type.svg" alt="Tipo de material">
+					</div>
+					<input class="input-getdata" type="text" id="materialType" placeholder="2 Adults and 1 Child..."></input>
+				</div>
+			
+				<label for="email">Email:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/mail.svg" alt="email">
+					</div>
+					<input class="input-getdata" type="email" id="email" name="email" placeholder="youemail@email.com">
+				</div>
+			
+				<label for="cellphone">Phone:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/blackPhone.svg" alt="telephone">
+					</div>
+					<input class="input-getdata" type="tel" id="cellphone" name="cellphone" autocomplete="tel" placeholder="123 456 789">
+				</div>
+			
+				<label for="elementToAnalyze">Describe your holiday plan:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/type.svg" alt="Elemento a analizar">
+					</div>
+					<input class="input-getdata" type="text"  id="elementToAnalyze" placeholder="Travel with my family to..."></input>
+				</div>
+			
+				<div class="error-div-hide" id="findErrorsDiv"></div>
+				<button type="submit" class="submitButton" value="ENVIAR">SEND</button>
+			</form>
+
+		</div>
+
 		<div dir="ltr" class="section flex flex-col items-center justify-center z-[5] min-h-full w-full"
 			id="feature2-elem" data-sectionid="feature2" data-sectiontype="Feature" data-sectionname="Features"
 			data-color="#000000" data-firstsection="false" style="color:#000;background-color:#fff">
@@ -499,9 +537,9 @@
 					<div class="flex flex-col items-center justify-center py-5 w-screen">
 						<div class="flex items-center justify-center flex-col px-5">
 							<h2 class="px-2 py-0.5 rounded-md outline-none text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center pb-1 lg:pb-4"
-								contenteditable="false">Our work</h2>
+								contenteditable="false">Our Travel Highlights</h2>
 							<h3 class="px-2 py-0.5 rounded-md outline-none text-xl lg:text-2xl xl:text-3xl font-medium text-center max-w-4xl"
-								contenteditable="false">Examples of our work completed for clients</h3>
+								contenteditable="false">Explore some of the unforgettable places we've taken our clients.</h3>
 						</div>
 						<div class="py-5 mt-5 flex w-full overflow-x-scroll noscrollbar items-center gap-4 px-5 justify-start"
 							data-scrollablegallary="true">
@@ -546,8 +584,8 @@
 						<div
 							class="group flex items-center justify-center w-full flex-wrap gap-2 px-9 md:gap-3 lg:gap-4 lg:px-10">
 							<a class="px-3 py-1.5 rounded-md font-semibold text-lg lg:px-4 lg:py-2 text-center lg:text-xl w-full md:w-max"
-								style="border:1px solid #000;background:#000;color:#fff" target="_self"
-								rel="noopener noreferrer" href="mailto:">Contact us</a>
+								style="border:1px solid #000;background:#000;color:#fff" target="_blank"
+								 href="mailto:hightimeholidays@gmail.com">Contact us</a>
 						</div>
 					</div>
 				</div>
@@ -577,9 +615,9 @@
 						</ul>
 						<div class="flex flex-col justify-center items-center gap-2">
 							<p class="px-2 py-0.5 rounded-md outline-none text-center mt-3 text-xs"
-								contenteditable="true">© 2023 All rights reserved.</p><button
-								class="hover:underline outline-none" data-termstoggle=""><span class="text-xs">Terms
-									&amp; Privacy</span></button>
+								contenteditable="true">© <span id="date"></span> All rights reserved.</p>
+							<a class="hover:underline outline-none text-xs" href="HTML'S/terms.html">Terms &amp;
+								Privacy</a>
 						</div>
 					</div>
 				</div>
